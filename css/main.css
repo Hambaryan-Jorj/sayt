@@ -54,7 +54,7 @@ h2 {
 
 
 .header {
-	background: #30697d url('../img/maxresdefault.jpg')no-repeat center top /cover;
+	background: #7f6f1f61 url('../img/maxresdefault.jpg')no-repeat center top /cover;
 	color: #fff;
 	height: 100vh;
 }
@@ -90,7 +90,7 @@ h2 {
 
 .man {
     background: url(../img/man.jpg) no-repeat center top;
-    width: 423px;
+    width: 429px;
     height: 583px;
 }
 
