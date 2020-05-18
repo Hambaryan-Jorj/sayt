@@ -1,0 +1,335 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	color: #000;
+	background-color: #7f6f1f61;
+}
+
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+
+h1, h2, h3, h4, h5, h6, {
+    font-weight: 900;
+}
+
+
+h1 {
+    font-style: 65px;
+    letter-spacing: 0.23em;
+    border-top: 3px solid #9ab4be;
+    border-bottom: 3px solid #9ab4be;
+    width: 384px;
+    padding: 14px 0px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+
+h3 {
+	color: #737373;
+	font-style: 18px;
+	margin-top: 40px;
+	margin-bottom: 33px;
+	text-transform: none;
+}
+
+
+h2 {
+	font-style: 40px;
+	margin:0;
+}
+
+
+.header {
+	background: #30697d url('../img/maxresdefault.jpg')no-repeat center top /cover;
+	color: #fff;
+	height: 100vh;
+}
+
+
+.mail {
+	color: #fff;
+	text-decoration: none;
+	font-style: 14px;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding-top: 90px;
+}
+
+
+.offer {
+	margin-top: 293px;
+	text-align: center;
+	letter-spacing: 0.1em;
+}
+
+
+.ofer p {
+	font-size: 25px;
+	color: #d0d9dd;
+}
+
+
+.man {
+    background: url(../img/man.jpg) no-repeat center top;
+    width: 423px;
+    height: 583px;
+}
+
+
+.text {
+    width: 670px;
+}
+
+
+.text p {
+    color: #7f7f7f;
+    line-height: 1.66em;
+}
+
+
+.btn {
+	background-color: #ff2b4a;
+	color: #fff;
+	width: 202px; 
+	padding: 12px 0;
+	display: block;
+	text-decoration: none;
+	display: block;
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+.about .container {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+
+.about{
+	padding-top: 114px;
+    background-color: white;
+}
+
+
+.heading {
+	padding-top: 112px;
+	text-align: center;
+
+}
+
+
+.heading p {
+    color: #6f6f6f;
+    margin-top: 25px;
+}
+
+
+.process {
+	background: #f6f6f6;
+	padding-bottom: 116px;
+}
+
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.steps li {
+	width: 280px;
+	height: 280px;
+	background: #10c6fc;
+	color: #fff;
+	margin: 0 1px;
+}
+
+.steps li:nth-child(2) {
+     background: #835aeb; 
+}
+
+.steps li:nth-child(3) {
+     background: #003453;
+}
+
+.steps li:nth-child(4) {
+     background: #ff2b4a;
+}
+
+.steps div {
+	margin-top: 100px;
+    text-align: center;
+}
+
+.works {
+	display: flex;
+	justify-content: space-between;
+}
+
+.works li {
+	width: 280px;
+	height: 280px;
+	background: #10c6fc;
+	color: #fff;
+	margin: 0 1px;
+}
+
+.works li:nth-child(2) {
+     background: #835aeb; 
+}
+
+.works li:nth-child(3) {
+     background: #003453;
+}
+
+.works li:nth-child(4) {
+     background: #ff2b4a;
+}
+
+.works-footer {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 18px;
+}
+
+.works-footer li {
+	width: 576px;
+	height: 280px;
+	background: #835aeb;
+	padding-bottom: 60px;
+	margin: 0 1px;
+}
+
+.works-footer li:nth-child(2) {
+     background: #003453; 
+     width: 280px;
+}
+
+.works-footer li:nth-child(3) {
+     background: #ff2b4a;
+     width: 280px;
+}
+
+.footer {
+	background: #f6f6f6;
+	padding: 10px 0;
+	margin-top: 30px; 
+}
+
+.socialis img {
+	height: 30px;
+}
+.socialis {
+	display: flex;
+	justify-content: center;
+}
+.socialis a{
+    margin-right: 30vh;
+}
+.socialis :last-child {
+	margin-right: 0;
+}
+.socialis p{
+	margin: 0;
+	padding-top: 30px;
+}
+ 
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 768px;
+	}
+
+    .man {
+    	display: none;
+    }
+     
+    .text {
+        width: auto;
+    }
+
+    .about {
+    	 padding-top: 74px;
+    	 padding-bottom: 110px;
+    }
+    
+}
+
+
+@media screen and (max-width: 800px) {
+	.container {
+		width: auto;
+		padding: 0 10px;
+		min-width: 290px;
+	}
+    h1{
+    	width: auto;
+    }
+    
+    .works ,.works-footer {
+    	flex-direction: column;
+    }
+    .works li,.works-footer li{
+    	margin:0 auto 30px;
+    }
+    .socialis a{
+        margin-right: 20vh;
+     }
+}
+@media screen and (max-width: 607px){
+	#prablm{
+		width: 100%;
+	}
+	.works-footer{
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 510px) {
+     .steps {
+     	flex-direction: column;
+     }	
+     .steps li {
+     	margin: 0 auto 30px;
+     }
+     .socialis a{
+        margin-right: 10vh;
+     }
+     .socialis img {
+	    height: 20px;
+     }
+
+}   
+.notebook {
+	width: 280px;
+	height: 280px;
+}
+@media screen and (max-width: 400px){
+	h1{
+		font-size: 25px;
+	}
+}
+
+
+
